@@ -1,0 +1,190 @@
+body{
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Verdana";
+}
+
+/* HEADER ----------------------------- */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding: 0px 300px;
+}
+
+.logo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+a{
+    font-size: 18px;
+    color:#E5E7EB;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+    color: #E5E7EB;
+}
+
+/* CONTENT ----------------------------------- */
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* SECTION ONE ------------------------------- */
+.section-one{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 300px;
+    background-color: #1F2937;
+}
+
+.section-one img{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.section-one h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.section-one div{
+    color: #E5E7EB;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section-one button{
+    background-color:#3882F6;
+    color: #F9FAF8;
+    padding: 8px 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+/* SECTION TWO -------------------------------- */
+.section-two{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.section-two .cards{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.section-two .card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    width: 200px;
+    height:auto;
+}
+
+.section-two .card img{
+    height: 200px;
+    width: 200px;
+}
+
+/* SECTION THREE ----------------------------- */
+.section-three{
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.section-three .content{
+    display:flex;
+    flex-direction: column;
+}
+
+.section-three div{
+    color:#1F2937;
+    font-size: 36px;
+    font: light italic;
+}
+
+.section-three p{
+    font-weight: bold;
+    text-align: right;
+}
+
+/*SECTION FOUR ------------------------------- */
+
+.section-four{
+    padding: 100px;
+
+}
+
+.section-four .content{
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-four .text strong{
+    color:#E5E7EB;
+    font-size: 24px;
+}
+
+.section-four .text div{
+    color:white;
+}
+
+.section-four button{
+    background-color: #3882F6;
+    color:white;
+    border: 2px solid white;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+/* FOOTER ----------------------------------------- */
+footer{
+    padding: 30px 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+}
+
+
+button:hover{
+    cursor: pointer;
+}
